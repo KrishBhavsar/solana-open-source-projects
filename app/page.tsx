@@ -168,16 +168,10 @@ export default function Home() {
                       Category
                     </th>
                     <th scope="col" className="px-6 py-4">
-                      Language
-                    </th>
-                    <th scope="col" className="px-6 py-4">
                       Stars ↓
                     </th>
                     <th scope="col" className="px-6 py-4">
                       Last Updated
-                    </th>
-                    <th scope="col" className="px-6 py-4">
-                      License
                     </th>
                     <th scope="col" className="px-6 py-4 min-w-[300px]">
                       Description
@@ -225,11 +219,6 @@ export default function Home() {
                         </span>
                       </td>
                       <td className="px-6 py-4">
-                        <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-900/50 text-blue-200 border border-blue-500/30">
-                          {project.primary_language}
-                        </span>
-                      </td>
-                      <td className="px-6 py-4">
                         <span className="flex items-center font-medium">
                           <svg
                             className="w-4 h-4 mr-1 text-yellow-400"
@@ -243,11 +232,6 @@ export default function Home() {
                       </td>
                       <td className="px-6 py-4 text-gray-300">
                         {project.last_updated}
-                      </td>
-                      <td className="px-6 py-4">
-                        <span className="inline-block px-2 py-1 text-xs font-medium rounded bg-gray-700/50 text-gray-300 border border-gray-600/30">
-                          {project.license}
-                        </span>
                       </td>
                       <td className="px-6 py-4">
                         <div className="max-w-sm">
@@ -284,12 +268,6 @@ export default function Home() {
                   <div className="flex flex-wrap gap-2 mb-3">
                     <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-purple-900/50 text-purple-200 border border-purple-500/30">
                       {project.category}
-                    </span>
-                    <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-900/50 text-blue-200 border border-blue-500/30">
-                      {project.primary_language}
-                    </span>
-                    <span className="inline-block px-2 py-1 text-xs font-medium rounded bg-gray-700/50 text-gray-300 border border-gray-600/30">
-                      {project.license}
                     </span>
                   </div>
                 </div>
